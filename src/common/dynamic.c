@@ -9,7 +9,7 @@
 
 DArray* da_create(size_t elem_size) {
 
-    if (elem_size == 0) return NULLl;
+    if (elem_size == 0) return NULL;
 
     DArray *darr;
     darr = malloc(sizeof(DArray));
